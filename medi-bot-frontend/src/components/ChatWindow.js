@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Message from './Message';
-import InputBox from './InputBox';
-import Header from './Header';
+import Message from './Message.js';
+import InputBox from './InputBox.js';
+import Header from './Header.js';
 // import './App.css';
 
 const ChatWindow = () => {
