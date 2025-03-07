@@ -1,11 +1,13 @@
-sentence-transformers==2.2.2
-langchain
 flask
+flask-cors
 pypdf
 python-dotenv
-pinecone-client[grpc]
+pinecone-client
+langchain
 langchain-pinecone
-langchain-community
-langchain-gemini
-langchain-experimental
--e .
+langchain_community
+google-generativeai
+langchain_openai
+langchain_experimental
+sentence-transformers
+huggingface_hub
